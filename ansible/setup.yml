@@ -1,0 +1,13 @@
+---
+- name: Prepare Linux infrastructure servers
+  hosts: all
+  become: true
+  vars:
+    ansible_become_exe: /usr/bin/sudo.ws
+
+  tasks:
+    - name: Ensure tree package is installed
+      ansible.builtin.apt:
+        name: tree
+        state: present
+        update_cache: true

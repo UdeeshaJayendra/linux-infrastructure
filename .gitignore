@@ -1,0 +1,14 @@
+# Keep the real inventory private
+ansible/inventory.ini
+
+# SSH keys and credentials
+*.pem
+*.key
+id_rsa
+id_ed25519
+.env
+.vault_pass
+
+# Python cache
+__pycache__/
+*.pyc
