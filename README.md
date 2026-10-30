@@ -27,8 +27,7 @@ This project brings these responsibilities together in a practical lab environme
 - Apply firewall rules and additional security hardening.
 
 ## Architecture
-<img width="1536" height="1024" alt="WhatsApp Image 2026-10-26 at 5 21 57 PM" src="https://github.com/user-attachments/assets/838a641a-f2ed-4d19-8c4b-130145d9dd8f" />
-
+<img width="1536" height="1024" alt="Component 2" src="https://github.com/user-attachments/assets/d40cb6fa-6f7e-4bc6-8422-ef63e49b5e4d" />
 
 *The diagram is a logical overview of the implemented services, not a physical network diagram. The host-only network provides connectivity between the host and lab VMs; `infra01` also has a NAT adapter for external network access.*
 
