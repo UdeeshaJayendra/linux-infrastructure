@@ -62,10 +62,10 @@ Created virtual Linux servers using VirtualBox and configured network adapters t
 Configured the host-only network to provide a private network for infrastructure administration and communication between the lab systems. The infrastructure server also uses NAT for external connectivity.
 
 **Evidence**
-
-- `01 VM network adapter.png`
-- `02 VM network adapter.png`
-- `03-infra01-networking-verified.png`
+<img width="1652" height="721" alt="Screenshot From 2026-10-24 00-50-15" src="https://github.com/user-attachments/assets/a9a54366-4bc0-4890-9832-49c14684658d" />
+<img width="1009" height="605" alt="01" src="https://github.com/user-attachments/assets/b263d462-1960-4ee5-b864-07ec1b5ca1df" />
+<img width="1009" height="605" alt="02" src="https://github.com/user-attachments/assets/e41e7bc1-b03e-4c94-9774-b001f81f29f8" />
+<img width="984" height="853" alt="03-infra01-networking-verified" src="https://github.com/user-attachments/assets/580e6bf8-8ad2-42b7-90d6-aa64886fab7e" />
 
 ### 2. Linux Administration and Access Control
 
@@ -75,9 +75,9 @@ Implemented shared-directory permissions and Access Control Lists (ACLs) to cont
 
 **Evidence**
 
-- `05-infra01-ssh-hardening-verified.png`
-- `06-infra01-shared-permissions-verified.png`
-- `07-infra01-default-acl-and-access-control-verified.png`
+<img width="1086" height="659" alt="05-infra01-ssh-hardening-verified" src="https://github.com/user-attachments/assets/4eb67dbe-4c26-4d6d-b4f7-c6045a7ede90" />
+<img width="1116" height="167" alt="06-infra01-shared-permissions-verified" src="https://github.com/user-attachments/assets/019aaa35-5485-4303-aac9-149d9b26f335" />
+<img width="1030" height="455" alt="07-infra01-default-acl-and-access-control-verified" src="https://github.com/user-attachments/assets/97f7644b-4733-493b-b1a1-89d294cbe335" />
 
 ### 3. SSH Security and Fail2ban
 
@@ -94,8 +94,8 @@ Verified SSH connectivity after firewall changes and captured evidence of Fail2b
 
 **Evidence**
 
-- `11-infra01-fail2ban-active-ip-ban.png`
-- `11-infra01-ssh-after-firewall.png`
+<img width="1046" height="444" alt="11-infra01-fail2ban-active-ip-ban" src="https://github.com/user-attachments/assets/30c45325-1a5f-44ad-aad4-8bee25a61454" />
+<img width="950" height="856" alt="11-infra01-ssh-after-firewall" src="https://github.com/user-attachments/assets/70e60982-4d6d-4f67-8f25-1328b13c8010" />
 
 ### 4. Nginx Web Servers
 
@@ -110,7 +110,7 @@ Running separate web servers provides a foundation for learning multi-server web
 
 **Evidence**
 
-- `12-nginx-web01-web02-verification.png`
+<img width="834" height="859" alt="12-nginx-web01-web02-verification" src="https://github.com/user-attachments/assets/ad0a6f29-144f-4d4c-b5e5-229bd7e02346" />
 
 ### 5. DNS Configuration
 
@@ -122,7 +122,7 @@ Verified DNS resolution as part of the infrastructure testing.
 
 **Evidence**
 
-- `13-dns-resolution.png`
+<img width="717" height="822" alt="13-dns-resolution png" src="https://github.com/user-attachments/assets/60bce0d8-20f7-466b-badb-0279285db49e" />
 
 ### 6. DHCP Configuration
 
@@ -134,9 +134,9 @@ The DHCP evidence covers the service status, client configuration, and lease inf
 
 **Evidence**
 
-- `14 dhcp-client.png`
-- `14 dhcp-lease.png`
-- `14 dhcp-service.png`
+<img width="853" height="219" alt="14 dhcp-client" src="https://github.com/user-attachments/assets/f2d0da44-e21f-47b2-8332-d7ef43318daa" />
+<img width="1239" height="132" alt="14 dhcp-lease" src="https://github.com/user-attachments/assets/7b41ccab-e59b-4288-a94b-cc22a56e2afe" />
+<img width="1918" height="492" alt="14 dhcp-service" src="https://github.com/user-attachments/assets/25b91a05-ac03-47b7-bb8d-0e951af85839" />
 
 ### 7. Samba File Sharing
 
@@ -152,8 +152,8 @@ Verified that the shared folder could be accessed remotely.
 
 **Evidence**
 
-- `15 samba-shared-folder.png`
-- `16 samba-remote-access.png`
+<img width="733" height="258" alt="15 samba-shared-folder" src="https://github.com/user-attachments/assets/59174f10-2b9a-4f34-b53e-dc64c6e315b2" />
+<img width="996" height="516" alt="16 samba-remote-access" src="https://github.com/user-attachments/assets/30306905-550a-4583-aa3b-340b8e879122" />
 
 ### 8. Ansible Configuration Management
 
@@ -167,8 +167,8 @@ This demonstrates how a system administrator can perform repeatable configuratio
 
 **Evidence**
 
-- `17 ansible-multi-server.png`
-- `18 ansible-automation.png`
+<img width="1077" height="619" alt="17 ansible-multi-server" src="https://github.com/user-attachments/assets/1f2cc478-d76a-44d1-a303-dceece8e1606" />
+<img width="1047" height="604" alt="18 ansible-automation" src="https://github.com/user-attachments/assets/7a2ff714-a3b7-4b6a-9a1c-6d31532e93f4" />
 
 ### 9. Infrastructure Monitoring
 
@@ -190,8 +190,8 @@ Configured a Linux server monitoring dashboard with panels for CPU, memory, disk
 
 **Evidence**
 
-- `19-monitoring-dashboard.png`
-- `20. prometheus-targets.png`
+<img width="1917" height="784" alt="19-monitoring-dashboard png" src="https://github.com/user-attachments/assets/53a8298d-b2c3-4f4c-a6ce-57bc43726f82" />
+<img width="1919" height="598" alt="20  prometheus-targets" src="https://github.com/user-attachments/assets/73e858ed-6b0b-47ad-ae6e-cf3f126970c9" />
 
 ### 10. Centralized Logging
 
@@ -205,7 +205,7 @@ Centralized logging provides a common location for reviewing events from multipl
 
 **Evidence**
 
-- `21 centralized-logging.png`
+<img width="1919" height="272" alt="21 centralized-logging" src="https://github.com/user-attachments/assets/4d3717dc-a2de-4e91-9409-e761cd017b80" />
 
 ### 11. Automated Backups
 
@@ -225,7 +225,7 @@ Restricted access to the backup directory and backup script using appropriate fi
 
 **Evidence**
 
-- `22 automated-backups.png`
+<img width="1392" height="842" alt="22 automated-backups" src="https://github.com/user-attachments/assets/4ac623d7-ddda-4817-99f6-fbc96baafb2c" />
 
 ### 12. Disaster Recovery Verification
 
@@ -241,7 +241,7 @@ The recovery verification process helps identify unusable backups before they ar
 
 **Evidence**
 
-- `23 disaster-recovery.png`
+<img width="824" height="914" alt="23 disaster-recovery" src="https://github.com/user-attachments/assets/d072fe01-fef1-4634-87ac-6f0fdb9c1980" />
 
 ### 13. Firewall and Security Hardening
 
@@ -262,7 +262,7 @@ Also verified SSH security settings and restrictive permissions on backup files 
 
 **Evidence**
 
-- `25 security-hardening.png`
+<img width="1381" height="712" alt="25 security-hardening" src="https://github.com/user-attachments/assets/e70205db-2f4f-4f90-a0fd-911d889c2947" />
 
 ## Key Skills Demonstrated
 
